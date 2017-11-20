@@ -1,0 +1,285 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                20/Nov/2017  16:26:13
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\blinky_pca10028.out
+#    Map file     =  
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\blinky_pca10028.map
+#    Command line =  
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\app_error.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\app_error_weak.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\app_timer.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\app_util_platform.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\boards.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\hardfault_implementation.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\iar_startup_nrf51.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\main.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_assert.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_drv_clock.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_drv_common.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_drv_uart.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_log_backend_serial.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_log_frontend.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_nvic.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\nrf_soc.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\RTT_Syscalls_IAR.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\sdk_errors.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\SEGGER_RTT.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\SEGGER_RTT_printf.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\system_nrf51.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\blinky_pca10028.out
+#        --map
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build\blinky_pca10028.map
+#        --config
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\blinky_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0003ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                      0xc0
+  .intvec            ro code  0x00000000   0xc0  iar_startup_nrf51.o [1]
+                            - 0x000000c0   0xc0
+
+"P1":                                     0x9e0
+  .text              ro code  0x000000c0  0x460  app_timer.o [1]
+  .text              ro code  0x00000520   0x20  app_error.o [1]
+  .text              ro code  0x00000540   0x34  ABImemset.o [4]
+  .text              ro code  0x00000574   0x1c  app_error_weak.o [1]
+  .text              ro code  0x00000590  0x1dc  nrf_drv_uart.o [1]
+  .text              ro code  0x0000076c   0xc4  system_nrf51.o [1]
+  .text              ro code  0x00000830   0x90  main.o [1]
+  .text              ro code  0x000008c0   0x80  nrf_drv_clock.o [1]
+  .text              ro code  0x00000940   0x3c  zero_init3.o [4]
+  .text              ro code  0x0000097c   0x30  copy_init3.o [4]
+  .text              ro code  0x000009ac   0x2c  iar_startup_nrf51.o [1]
+  .text              ro code  0x000009d8   0x28  data_init.o [4]
+  .iar.init_table    const    0x00000a00   0x24  - Linker created -
+  .text              ro code  0x00000a24   0x1a  cmain.o [4]
+  .text              ro code  0x00000a3e    0x8  exit.o [3]
+  .text              ro code  0x00000a46    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a48    0xa  cexit.o [4]
+  .text              ro code  0x00000a52    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a54    0xc  XXexit.o [4]
+  .text              ro code  0x00000a60    0xc  cstartup_M.o [4]
+  Initializer bytes  const    0x00000a6c    0x4  <for P2-1>
+  .text              ro code  0x00000a70    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a72    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a74    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a76    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a78    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a7a    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a7c    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a7e    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a80    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a82    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a84    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a86    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a88    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a8a    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a8c    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a8e    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a90    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a92    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a94    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a96    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a98    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a9a    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a9c    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000a9e    0x2  iar_startup_nrf51.o [1]
+  .rodata            const    0x00000aa0    0x0  zero_init3.o [4]
+  .rodata            const    0x00000aa0    0x0  copy_init3.o [4]
+                            - 0x00000aa0  0x9e0
+
+"P2", part 1 of 3:                          0x4
+  P2-1                        0x20000000    0x4  <Init block>
+    .data            inited   0x20000000    0x4  system_nrf51.o [1]
+                            - 0x20000004    0x4
+
+"P2", part 2 of 3:                        0x800
+  CSTACK                      0x20000008  0x800  <Block>
+    CSTACK           uninit   0x20000008  0x800  <Block tail>
+                            - 0x20000808  0x800
+
+"P2", part 3 of 3:                         0xe0
+  .bss               zero     0x20000808   0x90  main.o [1]
+  .bss               zero     0x20000898   0x20  app_timer.o [1]
+  .bss               zero     0x200008b8   0x1c  nrf_drv_uart.o [1]
+  .bss               zero     0x200008d4   0x14  nrf_drv_clock.o [1]
+                            - 0x200008e8   0xe0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xe0:
+          0x20000808  0xe0
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x00000a6c   0x4
+    1 destination range, total size 0x4:
+          0x20000000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build: [1]
+    app_error.o               32
+    app_error_weak.o          28
+    app_timer.o            1 120                32
+    iar_startup_nrf51.o      288
+    main.o                   144               144
+    nrf_drv_clock.o          128                20
+    nrf_drv_uart.o           476                28
+    system_nrf51.o           196        4        4
+    ----------------------------------------------
+    Total:                 2 412        4      228
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                     8
+    ----------------------------------------------
+    Total:                     8
+
+rt6M_tl.a: [4]
+    ABImemset.o               52
+    XXexit.o                  12
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              48
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              60
+    ----------------------------------------------
+    Total:                   260
+
+    Linker created                     36    2 048
+--------------------------------------------------
+    Grand Total:           2 680       40    2 276
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x00000a00          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00000a24          --   Gb  - Linker created -
+?main                   0x00000a25         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x20000008          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000808          --   Gb  - Linker created -
+NVIC_SetPriority        0x000000c1   0x32  Code  Lc  app_timer.o [1]
+POWER_CLOCK_IRQHandler  0x000008f3   0x40  Code  Gb  nrf_drv_clock.o [1]
+RTC1_IRQHandler         0x0000040d   0x8a  Code  Gb  app_timer.o [1]
+Region$$Table$$Base     0x00000a00          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00000a24          --   Gb  - Linker created -
+SWI0_IRQHandler         0x0000049d    0x8  Code  Gb  app_timer.o [1]
+SystemCoreClock         0x20000000    0x4  Data  Gb  system_nrf51.o [1]
+SystemInit              0x0000076d   0xa6  Code  Gb  system_nrf51.o [1]
+UART0_IRQHandler        0x00000755    0xc  Code  Gb  nrf_drv_uart.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20007fff          --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000          --   Gb  command line/config [2]
+__Vectors               0x00000000          --   Gb  iar_startup_nrf51.o [1]
+__Vectors_End           0x000000c0         Data  Gb  iar_startup_nrf51.o [1]
+__Vectors_Size {Abs}    0x000000c0          --   Gb  iar_startup_nrf51.o [1]
+__aeabi_memclr4         0x00000571         Code  Gb  ABImemset.o [4]
+__aeabi_memclr8         0x00000571         Code  Gb  ABImemset.o [4]
+__cmain                 0x00000a25         Code  Gb  cmain.o [4]
+__exit                  0x00000a55         Code  Gb  XXexit.o [4]
+__iar_Memset4_word      0x00000541         Code  Gb  ABImemset.o [4]
+__iar_copy_init3        0x0000097d   0x30  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x000009d9   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x00000a61         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x00000941   0x3c  Code  Gb  zero_init3.o [4]
+__vector_table          0x00000000         Data  Gb  iar_startup_nrf51.o [1]
+_call_main              0x00000a31         Code  Gb  cmain.o [4]
+_exit                   0x00000a49         Code  Gb  cexit.o [4]
+_main                   0x00000a3b         Code  Gb  cmain.o [4]
+app_error_fault_handler
+                        0x00000575   0x1c  Code  Wk  app_error_weak.o [1]
+app_error_handler_bare  0x00000521   0x1c  Code  Gb  app_error.o [1]
+app_timer_init          0x000004a5   0x54  Code  Gb  app_timer.o [1]
+clock_clk_started_notify
+                        0x000008d1   0x22  Code  Lc  nrf_drv_clock.o [1]
+compare_reg_update      0x000002b1   0x8c  Code  Lc  app_timer.o [1]
+exit                    0x00000a3f    0x8  Code  Gb  exit.o [3]
+list_deletions_handler  0x0000014d   0x8a  Code  Lc  app_timer.o [1]
+list_insertions_handler
+                        0x000001d7   0xda  Code  Lc  app_timer.o [1]
+m_cb                    0x200008b8   0x1c  Data  Lc  nrf_drv_uart.o [1]
+m_clock_cb              0x200008d4   0x14  Data  Lc  nrf_drv_clock.o [1]
+m_evt_schedule_func     0x200008b4    0x4  Data  Lc  app_timer.o [1]
+m_op_queue              0x20000898    0x8  Data  Lc  app_timer.o [1]
+m_rtc1_reset            0x200008a3    0x1  Data  Lc  app_timer.o [1]
+m_rtc1_running          0x200008a2    0x1  Data  Lc  app_timer.o [1]
+m_ticks_elapsed         0x200008ac    0x8  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_read_ind
+                        0x200008a0    0x1  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_write_ind
+                        0x200008a1    0x1  Data  Lc  app_timer.o [1]
+m_ticks_latest          0x200008a8    0x4  Data  Lc  app_timer.o [1]
+main                    0x0000086d   0x3e  Code  Gb  main.o [1]
+mp_timer_id_head        0x200008a4    0x4  Data  Lc  app_timer.o [1]
+nrf_clock_event_check   0x000008c1   0x10  Code  Lc  nrf_drv_clock.o [1]
+nrf_delay_ms            0x00000831   0x2a  Code  Lc  main.o [1]
+nrf_delay_us            0x000000f5   0x26  Code  Lc  app_timer.o [1]
+nrf_gpio_pin_write      0x0000085b   0x12  Code  Lc  main.o [1]
+nrf_uart_event_check    0x00000591    0x6  Code  Lc  nrf_drv_uart.o [1]
+nrf_uart_int_enable_check
+                        0x00000597    0xa  Code  Lc  nrf_drv_uart.o [1]
+rtc1_stop               0x0000011b   0x32  Code  Lc  app_timer.o [1]
+rx_byte                 0x000005c3   0x2c  Code  Lc  nrf_drv_uart.o [1]
+rx_done_event           0x000005ef   0x16  Code  Lc  nrf_drv_uart.o [1]
+timer_list_handler      0x00000351   0xac  Code  Lc  app_timer.o [1]
+tx_byte                 0x000005a9   0x1a  Code  Lc  nrf_drv_uart.o [1]
+tx_done_event           0x00000605   0x20  Code  Lc  nrf_drv_uart.o [1]
+uart_irq_handler        0x00000629  0x12c  Code  Lc  nrf_drv_uart.o [1]
+
+
+[1] = C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky\pca10028\blank\iar\_build
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = rt6M_tl.a
+
+  2 680 bytes of readonly  code memory
+     40 bytes of readonly  data memory
+  2 276 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

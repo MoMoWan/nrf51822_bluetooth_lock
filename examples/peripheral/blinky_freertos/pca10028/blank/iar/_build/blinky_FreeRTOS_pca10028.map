@@ -1,0 +1,456 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                20/Nov/2017  17:33:15
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\blinky_FreeRTOS_pca10028.out
+#    Map file     =  
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\blinky_FreeRTOS_pca10028.map
+#    Command line =  
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\app_button.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\app_error.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\app_error_weak.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\app_timer_freertos.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\app_util_platform.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\boards.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\bsp.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\bsp_nfc.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\croutine.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\event_groups.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\heap_1.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\iar_startup_nrf51.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\list.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\main.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_assert.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_drv_clock.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_drv_common.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_drv_gpiote.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_drv_uart.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_log_backend_serial.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_log_frontend.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_nvic.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\nrf_soc.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\port.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\port_cmsis.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\port_cmsis_systick.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\queue.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\RTT_Syscalls_IAR.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\sdk_errors.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\SEGGER_RTT.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\SEGGER_RTT_printf.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\system_nrf51.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\tasks.o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\timers.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\blinky_FreeRTOS_pca10028.out
+#        --map
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build\blinky_FreeRTOS_pca10028.map
+#        --config
+#        C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\blinky_FreeRTOS_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0003ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x00000000    0xc0  iar_startup_nrf51.o [1]
+                            - 0x000000c0    0xc0
+
+"P1":                                     0x1b6c
+  .text              ro code  0x000000c0   0x6bc  tasks.o [1]
+  .text              ro code  0x0000077c    0xac  port_cmsis.o [1]
+  .text              ro code  0x00000828    0x8e  list.o [1]
+  .text              ro code  0x000008b6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x000008b8   0x2f0  timers.o [1]
+  .text              ro code  0x00000ba8   0x118  port_cmsis_systick.o [1]
+  .text              ro code  0x00000cc0    0x50  heap_1.o [1]
+  .text              ro code  0x00000d10    0x60  ABImemset.o [4]
+  .text              ro code  0x00000d70    0x14  memset.o [3]
+  .text              ro code  0x00000d84    0x72  port.o [1]
+  .text              ro code  0x00000df6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00000df8   0x490  queue.o [1]
+  .text              ro code  0x00001288   0x138  nrf_drv_clock.o [1]
+  .text              ro code  0x000013c0    0x5c  ABImemcpy.o [4]
+  .text              ro code  0x0000141c    0x54  nrf_drv_common.o [1]
+  .text              ro code  0x00001470    0x30  app_util_platform.o [1]
+  .text              ro code  0x000014a0   0x1f0  nrf_drv_gpiote.o [1]
+  .text              ro code  0x00001690   0x1dc  nrf_drv_uart.o [1]
+  .text              ro code  0x0000186c    0xc4  system_nrf51.o [1]
+  .text              ro code  0x00001930    0xb8  main.o [1]
+  .text              ro code  0x000019e8    0xa4  boards.o [1]
+  .text              ro code  0x00001a8c    0x20  app_error.o [1]
+  .text              ro code  0x00001aac    0x1c  app_error_weak.o [1]
+  .text              ro code  0x00001ac8    0x3c  zero_init3.o [4]
+  .text              ro code  0x00001b04    0x3c  packbits_init_single.o [4]
+  .text              ro code  0x00001b40    0x2c  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001b6c    0x28  data_init.o [4]
+  .iar.init_table    const    0x00001b94    0x20  - Linker created -
+  .text              ro code  0x00001bb4    0x1a  cmain.o [4]
+  .text              ro code  0x00001bce     0x8  exit.o [3]
+  .text              ro code  0x00001bd6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001bd8     0xa  cexit.o [4]
+  .text              ro code  0x00001be2     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001be4     0xc  XXexit.o [4]
+  .text              ro code  0x00001bf0     0xc  cstartup_M.o [4]
+  .text              ro code  0x00001bfc     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001bfe     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c00     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c02     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c04     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c06     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c08     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c0a     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c0c     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c0e     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c10     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c12     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c14     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c16     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c18     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c1a     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c1c     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c1e     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c20     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00001c22     0x2  iar_startup_nrf51.o [1]
+  .rodata            const    0x00001c24     0x0  zero_init3.o [4]
+  .rodata            const    0x00001c24     0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x00001c24     0x8  <for P2-1>
+                            - 0x00001c2c  0x1b6c
+
+"P2", part 1 of 3:                          0x34
+  P2-1                        0x20000000    0x34  <Init block>
+    .data            inited   0x20000000     0x4  system_nrf51.o [1]
+    .data            inited   0x20000004    0x30  tasks.o [1]
+                            - 0x20000034    0x34
+
+"P2", part 2 of 3:                         0x800
+  CSTACK                      0x20000038   0x800  <Block>
+    CSTACK           uninit   0x20000038   0x800  <Block tail>
+                            - 0x20000838   0x800
+
+"P2", part 3 of 3:                        0x1188
+  .bss               zero     0x20000838  0x1008  heap_1.o [1]
+  .bss               zero     0x20001840    0xac  tasks.o [1]
+  .bss               zero     0x200018ec    0x48  nrf_drv_gpiote.o [1]
+  .bss               zero     0x20001934    0x3c  timers.o [1]
+  .bss               zero     0x20001970    0x1c  nrf_drv_uart.o [1]
+  .bss               zero     0x2000198c    0x14  nrf_drv_clock.o [1]
+  .bss               zero     0x200019a0    0x10  queue.o [1]
+  .bss               zero     0x200019b0     0x8  main.o [1]
+  .bss               zero     0x200019b8     0x4  app_util_platform.o [1]
+  .bss               zero     0x200019bc     0x4  port_cmsis.o [1]
+                            - 0x200019c0  0x1188
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1188:
+          0x20000838  0x1188
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x8 (15% of destination):
+          0x00001c24     0x8
+    1 destination range, total size 0x34:
+          0x20000000    0x34
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build: [1]
+    app_error.o                  32
+    app_error_weak.o             28
+    app_util_platform.o          48                 4
+    boards.o                    164
+    heap_1.o                     80             4 104
+    iar_startup_nrf51.o         284
+    list.o                      142
+    main.o                      184                 8
+    nrf_drv_clock.o             312                20
+    nrf_drv_common.o             84
+    nrf_drv_gpiote.o            496                72
+    nrf_drv_uart.o              476                28
+    port.o                      114
+    port_cmsis.o                172                 4
+    port_cmsis_systick.o        280
+    queue.o                   1 168                16
+    system_nrf51.o              196                 4
+    tasks.o                   1 724        8      220
+    timers.o                    752                60
+    -------------------------------------------------
+    Total:                    6 736        8    4 540
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                        8
+    memset.o                     20
+    -------------------------------------------------
+    Total:                       28
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                  92
+    ABImemset.o                  96
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       60
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      408
+
+    Linker created                        32    2 048
+-----------------------------------------------------
+    Grand Total:              7 172       40    6 588
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x00001b94           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00001bb4           --   Gb  - Linker created -
+?main                   0x00001bb5          Code  Gb  cmain.o [4]
+CSTACK$$Base            0x20000038           --   Gb  - Linker created -
+CSTACK$$Limit           0x20000838           --   Gb  - Linker created -
+GPIOTE_IRQHandler       0x00001511   0x168  Code  Gb  nrf_drv_gpiote.o [1]
+POWER_CLOCK_IRQHandler  0x0000135f    0x40  Code  Gb  nrf_drv_clock.o [1]
+PendSV_Handler          0x00000db5    0x42  Code  Gb  port.o [1]
+RTC1_IRQHandler         0x00000ba9    0x46  Code  Gb  port_cmsis_systick.o [1]
+Region$$Table$$Base     0x00001b94           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00001bb4           --   Gb  - Linker created -
+SVC_Handler             0x00000db3     0x2  Code  Gb  port.o [1]
+SystemCoreClock         0x20000000     0x4  Data  Gb  system_nrf51.o [1]
+SystemInit              0x0000186d    0xa6  Code  Gb  system_nrf51.o [1]
+UART0_IRQHandler        0x00001855     0xc  Code  Gb  nrf_drv_uart.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20007fff           --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000           --   Gb  command line/config [2]
+__Vectors               0x00000000           --   Gb  iar_startup_nrf51.o [1]
+__Vectors_End           0x000000c0          Data  Gb  iar_startup_nrf51.o [1]
+__Vectors_Size {Abs}    0x000000c0           --   Gb  iar_startup_nrf51.o [1]
+__aeabi_memclr4         0x00000d6d          Code  Gb  ABImemset.o [4]
+__aeabi_memclr8         0x00000d6d          Code  Gb  ABImemset.o [4]
+__aeabi_memcpy          0x000013c1          Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x00000d11          Code  Gb  ABImemset.o [4]
+__aeabi_memset4         0x00000d31          Code  Gb  ABImemset.o [4]
+__aeabi_memset8         0x00000d31          Code  Gb  ABImemset.o [4]
+__cmain                 0x00001bb5          Code  Gb  cmain.o [4]
+__exit                  0x00001be5          Code  Gb  XXexit.o [4]
+__iar_Memset4_word      0x00000d3d          Code  Gb  ABImemset.o [4]
+__iar_Memset_word       0x00000d1d          Code  Gb  ABImemset.o [4]
+__iar_data_init3        0x00001b6d    0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                        0x00001b05    0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x00001bf1          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x00001ac9    0x3c  Code  Gb  zero_init3.o [4]
+__vector_table          0x00000000          Data  Gb  iar_startup_nrf51.o [1]
+_call_main              0x00001bc1          Code  Gb  cmain.o [4]
+_exit                   0x00001bd9          Code  Gb  cexit.o [4]
+_main                   0x00001bcb          Code  Gb  cmain.o [4]
+app_error_fault_handler
+                        0x00001aad    0x1c  Code  Wk  app_error_weak.o [1]
+app_error_handler_bare  0x00001a8d    0x1c  Code  Gb  app_error.o [1]
+app_util_critical_region_enter
+                        0x00001491     0x8  Code  Gb  app_util_platform.o [1]
+app_util_critical_region_exit
+                        0x00001499     0x8  Code  Gb  app_util_platform.o [1]
+app_util_disable_irq    0x00001471     0xc  Code  Gb  app_util_platform.o [1]
+app_util_enable_irq     0x0000147d     0xe  Code  Gb  app_util_platform.o [1]
+bsp_board_led_invert    0x00001a39    0x18  Code  Gb  boards.o [1]
+bsp_board_led_off       0x00001a19     0x4  Code  Gb  boards.o [1]
+bsp_board_leds_init     0x00001a5d    0x28  Code  Gb  boards.o [1]
+bsp_board_leds_off      0x00001a27    0x12  Code  Gb  boards.o [1]
+clock_clk_started_notify
+                        0x0000133d    0x22  Code  Lc  nrf_drv_clock.o [1]
+eTaskConfirmSleepModeStatus
+                        0x0000059d    0x14  Code  Gb  tasks.o [1]
+exit                    0x00001bcf     0x8  Code  Gb  exit.o [3]
+item_enqueue            0x000012cf    0x18  Code  Lc  nrf_drv_clock.o [1]
+led_toggle_task_function
+                        0x00001931    0x1c  Code  Lc  main.o [1]
+led_toggle_task_handle  0x200019b4     0x4  Data  Gb  main.o [1]
+led_toggle_timer_callback
+                        0x0000194d     0xa  Code  Lc  main.o [1]
+led_toggle_timer_handle
+                        0x200019b0     0x4  Data  Gb  main.o [1]
+m_board_led_list        0x00001a84     0x8  Data  Lc  boards.o [1]
+m_cb                    0x200018ec    0x48  Data  Lc  nrf_drv_gpiote.o [1]
+m_cb                    0x20001970    0x1c  Data  Lc  nrf_drv_uart.o [1]
+m_clock_cb              0x2000198c    0x14  Data  Lc  nrf_drv_clock.o [1]
+m_in_critical_region    0x200019b8     0x4  Data  Lc  app_util_platform.o [1]
+main                    0x00001959    0x6c  Code  Gb  main.o [1]
+memset                  0x00000d71    0x14  Code  Gb  memset.o [3]
+nrf_bitmask_bit_is_set  0x000014f9    0x10  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_clock_event_check   0x00001289    0x10  Code  Lc  nrf_drv_clock.o [1]
+nrf_drv_clock_init      0x00001299    0x36  Code  Gb  nrf_drv_clock.o [1]
+nrf_drv_clock_lfclk_request
+                        0x000012e7    0x4e  Code  Gb  nrf_drv_clock.o [1]
+nrf_drv_common_irq_enable
+                        0x0000141d    0x44  Code  Gb  nrf_drv_common.o [1]
+nrf_gpio_cfg            0x000019e9    0x1c  Code  Lc  boards.o [1]
+nrf_gpio_cfg_sense_set  0x000014ad    0x20  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpio_pin_write      0x00001a05    0x12  Code  Lc  boards.o [1]
+nrf_gpio_ports_read     0x000014cd    0x28  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpiote_event_is_set
+                        0x000014a1     0xc  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_uart_event_check    0x00001691     0x6  Code  Lc  nrf_drv_uart.o [1]
+nrf_uart_int_enable_check
+                        0x00001697     0xa  Code  Lc  nrf_drv_uart.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x0000060f    0x30  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack  0x0000063f    0x3c  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x00000b51    0x48  Code  Lc  timers.o [1]
+prvCopyDataFromQueue    0x0000119d    0x26  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x00001127    0x76  Code  Lc  queue.o [1]
+prvGetExpectedIdleTime  0x00000247    0x1c  Code  Lc  tasks.o [1]
+prvIdleTask             0x00000529    0x74  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x000005b1    0x5e  Code  Lc  tasks.o [1]
+prvInsertTimerInActiveList
+                        0x00000a71    0x34  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                        0x00000aa5    0xaa  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                        0x0000067b    0x1e  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x00000a03    0x6e  Code  Lc  timers.o [1]
+prvTaskExitError        0x000007af     0x4  Code  Lc  port_cmsis.o [1]
+prvTimerTask            0x0000096f    0x94  Code  Lc  timers.o [1]
+prvUnlockQueue          0x000011c3    0x66  Code  Lc  queue.o [1]
+pvPortMalloc            0x00000cc1    0x46  Code  Gb  heap_1.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x00000761    0x14  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x20001854     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x20001934     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x20001894     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x20001898     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x20001938     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x0000077d    0x32  Code  Gb  port_cmsis.o [1]
+pxReadyTasksLists       0x20001858    0x3c  Data  Lc  tasks.o [1]
+rx_byte                 0x000016c3    0x2c  Code  Lc  nrf_drv_uart.o [1]
+rx_done_event           0x000016ef    0x16  Code  Lc  nrf_drv_uart.o [1]
+tx_byte                 0x000016a9    0x1a  Code  Lc  nrf_drv_uart.o [1]
+tx_done_event           0x00001705    0x20  Code  Lc  nrf_drv_uart.o [1]
+uart_irq_handler        0x00001729   0x12c  Code  Lc  nrf_drv_uart.o [1]
+ucHeap                  0x20000840  0x1000  Data  Lc  heap_1.o [1]
+ulPortDisableISR        0x00000df9    0x22  Code  Lc  queue.o [1]
+uxCriticalNesting       0x200019bc     0x4  Data  Lc  port_cmsis.o [1]
+uxCurrentNumberOfTasks  0x2000001c     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x00000893    0x24  Code  Gb  list.o [1]
+uxPendedTicks           0x20000024     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x200018c0     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000002c     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x2000189c     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x200018b8     0x4  Data  Lc  tasks.o [1]
+vListInitialise         0x00000829    0x1e  Code  Gb  list.o [1]
+vListInsert             0x0000085f    0x34  Code  Gb  list.o [1]
+vListInsertEnd          0x00000847    0x18  Code  Gb  list.o [1]
+vPortEnterCritical      0x000007f3     0xc  Code  Gb  port_cmsis.o [1]
+vPortExitCritical       0x000007ff     0xe  Code  Gb  port_cmsis.o [1]
+vPortSetupTimerInterrupt
+                        0x00000bef    0x34  Code  Gb  port_cmsis_systick.o [1]
+vPortStartFirstTask     0x00000d85    0x2e  Code  Gb  port.o [1]
+vPortSuppressTicksAndSleep
+                        0x00000c23    0x6c  Code  Gb  port_cmsis_systick.o [1]
+vPortTaskYield          0x000007df    0x14  Code  Gb  port_cmsis.o [1]
+vQueueAddToRegistry     0x00001229    0x20  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x0000124d    0x3c  Code  Gb  queue.o [1]
+vTaskDelay              0x000001c1    0x2a  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x00000521     0x8  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x00000407    0x22  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x00000445    0x18  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x000006b9    0x5a  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x000004c9     0xe  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x000001f9    0x3c  Code  Gb  tasks.o [1]
+vTaskStepTick           0x00000307     0xa  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x0000023d     0xa  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x000003bf    0x48  Code  Gb  tasks.o [1]
+xActiveTimerList1       0x20001948    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x2000195c    0x14  Data  Lc  timers.o [1]
+xDelayedTaskList1       0x200018c4    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x200018d8    0x14  Data  Lc  tasks.o [1]
+xIdleTaskHandle         0x20000018     0x4  Data  Lc  tasks.o [1]
+xNextFreeByte           0x20000838     0x4  Data  Lc  heap_1.o [1]
+xNextTaskUnblockTime    0x20000030     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20000028     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20001840    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x000007b3    0x2c  Code  Gb  port_cmsis.o [1]
+xQueueGenericCreate     0x00000e89    0x3a  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x00001013   0x114  Code  Gb  queue.o [1]
+xQueueGenericReset      0x00000e21    0x68  Code  Gb  queue.o [1]
+xQueueGenericSend       0x00000ec3    0xea  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x00000fad    0x66  Code  Gb  queue.o [1]
+xQueueRegistry          0x200019a0    0x10  Data  Gb  queue.o [1]
+xSchedulerRunning       0x20000020     0x4  Data  Lc  tasks.o [1]
+xSuspendedTaskList      0x200018a0    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x000004d7    0x4a  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x000000c1   0x100  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x0000069d    0x1c  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x00000301     0x6  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x00000319    0xa6  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x00000713    0x4a  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x00000469    0x5a  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x00000263    0x9e  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20000004    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x200018b4     0x4  Data  Lc  tasks.o [1]
+xTimerCreate            0x000008f1    0x36  Code  Gb  timers.o [1]
+xTimerCreateTimerTask   0x000008b9    0x30  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x00000927    0x48  Code  Gb  timers.o [1]
+xTimerQueue             0x2000193c     0x4  Data  Lc  timers.o [1]
+xTimerTaskHandle        0x20001940     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x200018bc     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Users\momo\Desktop\资料备份\nRF5_SDK_12.3.0_d7731ad\examples\peripheral\blinky_freertos\pca10028\blank\iar\_build
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = rt6M_tl.a
+
+  7 172 bytes of readonly  code memory
+     40 bytes of readonly  data memory
+  6 588 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
